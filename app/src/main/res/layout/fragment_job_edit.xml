@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Job Title -->
+    <EditText
+        android:id="@+id/edit_job_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Job Title" />
+
+    <!-- Organization Name -->
+    <EditText
+        android:id="@+id/edit_organization_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Organization Name" />
+
+    <!-- Job Category -->
+    <EditText
+        android:id="@+id/edit_job_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Job Category" />
+
+    <!-- Skills Required -->
+    <EditText
+        android:id="@+id/edit_skills_required"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Skills Required" />
+
+    <!-- Job Status Spinner -->
+    <Spinner
+        android:id="@+id/edit_spinner_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btn_update_job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Job" />
+
+    <Button
+        android:id="@+id/btn_delete_job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Job"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

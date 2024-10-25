@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Job Title -->
+    <EditText
+        android:id="@+id/job_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Job Title" />
+
+    <!-- Organization Name -->
+    <EditText
+        android:id="@+id/job_organization"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Organization Name" />
+
+    <!-- Job Category -->
+    <EditText
+        android:id="@+id/job_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Job Category" />
+
+    <!-- Skills Required -->
+    <EditText
+        android:id="@+id/skills_required"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Skills Required" />
+
+    <!-- Status Dropdown -->
+    <Spinner
+        android:id="@+id/spinner_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Add a new section for the Date Picker -->
+    <TextView
+        android:id="@+id/select_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:textSize="16sp"
+        android:paddingTop="16dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/btn_select_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp" />
+
+    <!-- Add Job Button -->
+    <Button
+        android:id="@+id/btn_add_job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Job"
+        android:layout_gravity="center" />
+
+</LinearLayout>

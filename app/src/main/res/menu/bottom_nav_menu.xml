@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_register"
+        android:icon="@drawable/ic_registration"
+        android:title="Register"/>
+    <item
+        android:id="@+id/nav_add_job"
+        android:icon="@drawable/ic_add"
+        android:title="Add Job"/>
+    <item
+        android:id="@+id/nav_show_jobs"
+        android:icon="@drawable/ic_list"
+        android:title="Show Jobs"/>
+</menu>
